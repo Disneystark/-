@@ -1,0 +1,336 @@
+body {
+  margin: 0;
+}
+.container_header {
+  height: 70px;
+}
+
+.container {
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.logo_DSK {
+  padding-top: 10px;
+}
+.product_head {
+  font-family: "PT Root UI";
+}
+
+.search_header_wrapper {
+  display: flex;
+}
+.search_header_wrapper {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 25px;
+}
+.header_content {
+  display: flex;
+}
+.input_header {
+  margin-left: 10px;
+  height: 15px;
+  margin-top: 21px;
+  height: 30px;
+  background: none;
+  border: 0;
+  display: block;
+  color: #6e6d6d;
+  width: 100%;
+  border-bottom: 1px solid #b5b5b5;
+  outline: 0;
+  font-family: Nunito Sans;
+  font-size: 14px;
+  line-height: 19px;
+}
+.open_menu {
+  margin-top: 6px;
+  margin-left: 10px;
+  width: 24px;
+  height: 24px;
+  background-image: url("./images/menu_open.png");
+}
+.magnifier {
+  margin-right: 10px;
+  margin-top: 25px;
+  width: 24px;
+  height: 24px;
+  margin-left: -26px;
+}
+.back_menu_color {
+  background-color: #f4f0f0;
+  width: 60px;
+  height: 36px;
+  margin-left: 6px;
+  margin-top: 15px;
+  border: 1px solid #b5b5b5;
+  border-radius: 2px;
+}
+.list {
+  display: flex;
+  justify-content: flex-start;
+}
+.header_list {
+  margin-top: 16px;
+  font-size: 11px;
+  color: #b5b5b5;
+  font-family: "PT Root UI";
+}
+li {
+  font-size: 11px;
+  color: rgb(59 68 199);
+  margin-left: 17px;
+  font-family: "PT Root UI";
+}
+
+li span {
+  font-size: 11px;
+  color: #b5b5b5;
+  font-family: "PT Root UI";
+}
+ul {
+  display: flex;
+  padding: 0;
+}
+.pc_plit {
+  color: black;
+}
+.list_2 {
+  margin: -15px;
+  margin-left: 15px;
+}
+.wraapper_product {
+  margin-top: 40px;
+}
+.wrapper_specifications {
+  height: 40px;
+  background-color: #f8f8f8;
+}
+.text_product {
+  font-family: "PT Root UI";
+  font-size: 10px;
+}
+.text_specifications {
+  font-family: "PT Root UI";
+  font-size: 10px;
+  margin-left: 10px;
+}
+.text_review {
+  font-family: "PT Root UI";
+  font-size: 10px;
+  margin-left: 10px;
+}
+.wrap_item {
+  padding-top: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+.progressbar {
+  width: 67px;
+  height: 1px;
+  background-color: #11049d;
+  margin-top: 13px;
+}
+.image_slabs {
+  background-image: url("./images/img.png");
+  width: 345px;
+  height: 345px;
+}
+.back_circle {
+  text-align: center;
+  padding-top: 300px;
+}
+.elipse {
+  margin-left: 4px;
+}
+.elipse_background {
+  width: 100px;
+  margin: 0 auto;
+  background: #cdc1c166;
+  border-radius: 27px;
+  height: 20px;
+}
+.elipse_1 {
+  margin-right: 4px;
+}
+.image_slabs {
+  margin-top: 40px;
+}
+.specifications_heading {
+  margin-top: 20px;
+  font-family: "PT Root UI";
+}
+.specifications_info_wrapper {
+  display: flex;
+  margin-top: 10px;
+}
+.name_sable {
+  font-family: "PT Root UI";
+  color: #979292;
+  font-size: 11px;
+}
+.description {
+  font-size: 11px;
+  font-family: "PT Root UI";
+  padding-left: 8px;
+}
+input[type="text"]:-ms-input-placeholder {
+  font-family: "PT Root UI";
+}
+
+.input_header::-webkit-input-placeholder {
+  font-family: "PT Root UI";
+}
+
+.wrapper_grey_border {
+  width: 100%;
+  height: 100%;
+  border: solid #e9dfdf;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.order_wrapper {
+  margin: 0 14px;
+}
+.blue_figure {
+  font-size: 40px;
+  font-family: "PT Root UI";
+  color: #0957b2;
+  font-weight: bold;
+  padding-top: 25px;
+}
+.gray_figure {
+  font-family: "PT Root UI";
+  color: #9792929e;
+  font-size: 23px;
+}
+.block_article {
+  display: flex;
+  margin-top: 10px;
+}
+.name_article {
+  font-family: "PT Root UI";
+  color: #0957b2;
+}
+.description_article {
+  font-weight: normal;
+  font-family: "PT Root UI";
+  font-weight: 500;
+  margin-left: 3px;
+}
+.button_add {
+  width: 150px;
+  height: 43px;
+  border: 2px solid #cac7c79e;
+  border-radius: 3px;
+  background: white;
+}
+.button_basket {
+  width: 150px;
+  height: 43px;
+  margin-left: 17px;
+  background-color: #0957b2;
+  border: 0;
+  border-radius: 3px;
+  position: absolute;
+}
+.plus_item {
+  width: 26px;
+  height: 26px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  background: #0957b2;
+}
+
+.button_info_wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+.plus_add {
+  margin-top: 4px;
+  margin-left: 1px;
+}
+.text_button {
+  margin-top: 5px;
+}
+.minus_item {
+  margin-top: 2px;
+}
+.basket_wrapper {
+  display: flex;
+  margin-left: 20px;
+}
+
+.text_info_log {
+  margin-top: 2px;
+  margin-left: 4px;
+  color: white;
+  font-family: "PT Root UI";
+  font-size: 15px;
+}
+.batton_wrapper {
+  margin-top: 25px;
+}
+.favourites {
+  width: 150px;
+  height: 43px;
+  border: 2px solid #cac7c79e;
+  border-radius: 3px;
+  background: #e8e8e86e;
+}
+.favorite_text {
+  font-family: "PT Root UI";
+  color: #4b4b4bb3;
+  margin-left: 5px;
+  font-size: 15px;
+}
+.favorite_wrapper {
+  display: flex;
+  margin-left: 10px;
+}
+.phone_batton {
+  width: 150px;
+  height: 43px;
+  margin-left: 17px;
+  background-color: #39a707;
+  border: 0;
+  border-radius: 3px;
+  position: absolute;
+  margin-left: 17px;
+}
+
+.batton_wrapper_like_phone {
+  margin-top: 15px;
+}
+.text_phone_ {
+  margin-top: 2px;
+  margin-left: 4px;
+  color: white;
+  font-family: "PT Root UI";
+  font-size: 15px;
+}
+.phone_batton_wrapper {
+  display: flex;
+  margin-left: 20px;
+}
+.wrapper_message_text {
+  font-family: "PT Root UI";
+  color: #4b4b4bb3;
+  margin-left: 5px;
+  font-size: 12px;
+  margin: 0;
+}
+.wrapper_message_phone {
+  margin-top: 20px;
+  display: flex;
+  margin-bottom: 30px;
+}
+.logo_messengers_whatap_telegram {
+  margin-left: 10px;
+}
+.viber_telegram {
+  margin-left: 10px;
+}
